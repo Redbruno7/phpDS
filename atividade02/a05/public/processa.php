@@ -30,12 +30,10 @@ for ($i = 1; $i <= $limite; $i++) {
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h2>Números primos até <?= $limite ?>:</h2>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <p><?= implode(", ", $primos) ?></p>
 
@@ -46,15 +44,6 @@ for ($i = 1; $i <= $limite; $i++) {
         <form action="../index.php" method="POST">
             <button type="submit">Sair</button>
         </form>
-    </main>
-
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
-
-    <!--Javascript-->
-    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -13,12 +13,10 @@ require_once "public/tabuada.php";
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h1>Gerar Tabuada</h1>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <form action="public/processa.php" method="POST">
             <label for="numero">Digite um número:</label>
@@ -34,12 +32,6 @@ require_once "public/tabuada.php";
         ?>
     </main>
 
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
-
-    <!--Javascript-->
     <script src="public/js/script.js"></script>
 </body>
 

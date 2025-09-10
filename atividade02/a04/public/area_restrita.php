@@ -18,23 +18,15 @@ if (!isset($_SESSION["logado"]) || $_SESSION["logado"] !== true) {
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h1>Bem-vindo à área restrita!</h1>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <p>Você está logado.</p>
         <a href="logout.php">Sair</a>
     </main>
 
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
-
-    <!--Javascript-->
     <script src="js/script.js"></script>
 </body>
 

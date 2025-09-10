@@ -9,12 +9,10 @@
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h2>Gerador de Números Primos</h2>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <form action="public/processa.php" method="POST">
             <label for="limite">Digite um número:</label>
@@ -22,14 +20,6 @@
             <button type="submit">Gerar</button>
         </form>
     </main>
-
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
-
-    <!--Javascript-->
-    <script src="public/js/script.js"></script>
 </body>
 
 </html>

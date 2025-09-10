@@ -13,12 +13,10 @@ require_once "public/media.php"
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h1>Sistema de Notas de Alunos</h1>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <form action="public/processa.php" method="POST">
             <label for="nome">Nome do aluno:</label>
@@ -34,7 +32,6 @@ require_once "public/media.php"
         </form>
 
         <?php
-        // Mostra alunos cadastrados
         session_start();
         if (isset($_SESSION["alunos"])) {
             foreach ($_SESSION["alunos"] as $aluno) {
@@ -44,12 +41,6 @@ require_once "public/media.php"
         ?>
     </main>
 
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
-
-    <!--Javascript-->
     <script src="public/js/script.js"></script>
 </body>
 

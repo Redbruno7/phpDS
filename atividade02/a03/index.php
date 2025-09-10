@@ -13,12 +13,10 @@ require_once "public/contagem.php";
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h1>Contador de Vogais em uma Frase</h1>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <form action="public/processa.php" method="POST">
             <label for="frase">Digite uma frase:</label><br>
@@ -34,12 +32,6 @@ require_once "public/contagem.php";
         ?>
     </main>
 
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
-
-    <!--Javascript-->
     <script src="public/js/script.js"></script>
 </body>
 

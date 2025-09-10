@@ -9,12 +9,10 @@
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h2>Login</h2>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <form action="public/processa.php" method="POST" id="formLogin">
             <label for="usuario">Usuário:</label>
@@ -26,11 +24,6 @@
             <button type="submit">Entrar</button>
         </form>
     </main>
-
-    <!--Rodapé da página-->
-    <footer>
-        
-    </footer>
 
     <!--Javascript-->
     <script src="public/js/script.js"></script>

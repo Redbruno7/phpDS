@@ -11,12 +11,10 @@
 </head>
 
 <body>
-    <!--Cabeçalho do Site-->
     <header>
         <h2>Sistema de Produtos</h2>
     </header>
 
-    <!--Container para o conteúdo-->
     <main>
         <form action="public/processa.php" method="POST">
             <label>Escolha uma opção:</label><br><br>
