@@ -3,7 +3,7 @@ header("Content-Type: application/json");
 include("../conexao/conexao.php");
 
 // Recebe os dados do corpo da requisição
-$dados = json_decode(file_get_contents("pgp://input"), true);
+$dados = json_decode(file_get_contents("php://input"), true);
 /**
  * Extrai o id da tarega do array de dadis e i cinverte para inteiro,
  * garatindo segurança e evitando injeção de SQL através de tipos inesperados.

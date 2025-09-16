@@ -40,7 +40,7 @@
                 }
 
                 // Botão de concluir
-                const btnConcluir = document.createElemente("button");
+                const btnConcluir = document.createElement("button");
                 btnConcluir.textContent = t.concluida == 1 ? "Desfazer" : "Concluir";
                 btnConcluir.onclick = async () =>  {
                     await fetch("../api/atualizar.php", {
@@ -75,7 +75,7 @@
                 const btnExcluir = document.createElement("button");
                 btnExcluir.textContent = "Excluir";
                 btnExcluir.onclick = async () => {
-                    await fetch("../api/ecluir.php", {
+                    await fetch("../api/excluir.php", {
                         method: "POST",
                         body: JSON.stringify({
                             id: t.id
